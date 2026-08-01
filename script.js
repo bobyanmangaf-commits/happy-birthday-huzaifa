@@ -14,4 +14,11 @@ const timer = setInterval(function () {
     document.getElementById("minutes").innerHTML = minutes;
     document.getElementById("seconds").innerHTML = seconds;
 
+if (distance < 0) {
+    clearInterval(timer);
+
+    document.querySelector(".countdown").style.display = "none";
+    document.getElementById("birthday-message").style.display = "block";
+}
+
 }, 1000);
