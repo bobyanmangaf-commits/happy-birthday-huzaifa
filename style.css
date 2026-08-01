@@ -19,3 +19,27 @@ body {
 
     color: #244B73;
 }
+/* Main container */
+.container {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Main heading */
+.container h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    color: #244B73;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(255, 255, 255, 0.6);
+}
+
+/* Subtitle */
+.container p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #4A6572;
+    max-width: 320px;
+    margin: auto;
+    line-height: 1.6;
+}
