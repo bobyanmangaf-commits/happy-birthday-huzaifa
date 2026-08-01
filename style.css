@@ -92,3 +92,43 @@ body {
     color: #666;
     letter-spacing: 1px;
 }
+/* Countdown */
+.countdown {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.time-box {
+    width: 75px;
+    height: 90px;
+
+    background: rgba(255, 255, 255, 0.55);
+    backdrop-filter: blur(15px);
+
+    border-radius: 18px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.time-box span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #244B73;
+}
+
+.time-box small {
+    margin-top: 6px;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #6B7280;
+    text-transform: uppercase;
+}
