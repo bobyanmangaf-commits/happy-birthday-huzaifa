@@ -1,0 +1,21 @@
+/* Reset the page */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Whole page */
+body {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #EAF6FF, #FFEAF4);
+
+    font-family: 'Poppins', sans-serif;
+
+    color: #244B73;
+}
