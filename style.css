@@ -156,3 +156,23 @@ body {
 #birthday-message {
     animation: fadeIn 1.5s ease;
 }
+.hearts {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 30px;
+    animation: floatHearts 3s ease-in-out infinite;
+}
+
+@keyframes floatHearts {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
