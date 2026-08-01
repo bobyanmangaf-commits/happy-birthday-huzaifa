@@ -141,3 +141,18 @@ body {
     color: #244B73;
     text-align: center;
 }
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#birthday-message {
+    animation: fadeIn 1.5s ease;
+}
