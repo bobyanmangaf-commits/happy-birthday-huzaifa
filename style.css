@@ -132,3 +132,12 @@ body {
     color: #6B7280;
     text-transform: uppercase;
 }
+#birthday-message {
+    display: none;
+    margin-top: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #244B73;
+    text-align: center;
+}
