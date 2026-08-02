@@ -222,3 +222,20 @@ body {
     font-size: 1.05rem;
     font-family: 'Poppins', sans-serif;
 }
+#surprise-btn {
+    margin-top: 30px;
+    padding: 14px 28px;
+    background: #244B73;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#surprise-btn:hover {
+    background: #3B6FA5;
+    transform: scale(1.05);
+}
