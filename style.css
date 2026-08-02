@@ -199,3 +199,26 @@ body {
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.12);
 }
+.letter {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.letter h2 {
+    color: #244B73;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.letter p {
+    color: #555;
+    line-height: 1.8;
+    font-size: 1.05rem;
+    font-family: 'Poppins', sans-serif;
+}
